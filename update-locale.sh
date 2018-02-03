@@ -52,7 +52,7 @@ while true; do
 					LC_IDENTIFICATION=en_US.UTF-8 
 
 				sudo rm /home/"$USER"/.pam_environment
-				sudo cat > /home/"$USER"/.pam_environment.test << EOF
+				sudo cat > /home/"$USER"/.pam_environment << EOF
 LANGUAGE        DEFAULT=${short_locale}:en
 LANG    DEFAULT=${selected_locale}
 LC_NUMERIC      DEFAULT=${selected_locale}
