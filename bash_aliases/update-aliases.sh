@@ -8,5 +8,5 @@ mv $file $bk_file
 echo "Backup file: $bk_file"
 fi
 echo "Copying new file."
-cp .bash_aliases $file
+cp ${BASH_SOURCE%/*}/.bash_aliases $file
 echo "Aliases file successfuly updated."
