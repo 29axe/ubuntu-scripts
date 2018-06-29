@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=
+Terminal=false
+Name=Knime
+Exec=/home/hud/Programs/knime/knime
+Type=Application
+Icon=/home/hud/Programs/knime/icon.xpm

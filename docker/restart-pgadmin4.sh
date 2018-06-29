@@ -1,4 +1,5 @@
 #!/bin/bash
+docker pull dpage/pgadmin4
 docker network disconnect -f bridge pgadmin
 docker kill pgadmin
 docker rm -fv pgadmin
