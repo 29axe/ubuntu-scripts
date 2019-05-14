@@ -7,7 +7,7 @@ sudo apt remove docker docker-engine docker.io
 sudo rm -r /home/"$USER"/.docker
 
 # set up the repository
-sudo apt udpate
+sudo apt update
 
 ## install required dependencies
 sudo apt install -y \
